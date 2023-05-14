@@ -17,4 +17,4 @@ if (etàPasseggero < 18){
     prezzoBiglietto -= (scontoQuaranta * prezzoBiglietto);
 }
 
-document.getElementById("gino").innerHTML = prezzoBiglietto + " &euro;"
+document.getElementById("gino").innerHTML = prezzoBiglietto.toFixed(2) + " &euro;"
